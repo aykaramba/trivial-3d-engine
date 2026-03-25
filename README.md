@@ -13,9 +13,7 @@
 <img width="402" height="411" alt="Trival 3D Engine" src="https://github.com/user-attachments/assets/8e1092b7-3a8c-4252-b6d0-67c8285a864e" />
 </p>
 
-A simple test to transpose a wonderful little tutorial by Tsoding that demonstrates how to store data as vectors and use a few simple formulas to translate the data and render points and lines of a cube in 3d dimensions.
-
-Tsoding performs the line tutorial in JavaScript, and I wanted to see what the code would look like as Common Lisp programmed in Sketch to learn a little bit about how to render 3d data.
+A simple test to transpose a wonderful little tutorial by Tsoding that demonstrates how to store data as vectors and use a few simple formulas to translate the data and render points and lines of a cube in 3d dimensions. Tsoding performs the line tutorial in JavaScript, and I wanted to see what the code would look like as Common Lisp and programmed in Sketch to learn a little bit about how to render 3d data.
 
 * This is my first attempt. 
 * All comments are welcome. 
