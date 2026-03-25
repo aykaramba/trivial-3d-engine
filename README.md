@@ -23,14 +23,9 @@ Tsoding performs the line tutorial in JavaScript, and I wanted to see what the c
 
 Original tutorial link: https://www.youtube.com/watch?v=qjWkNZ0SXfo
 
-<a href="https://www.youtube.com/watch?v=qjWkNZ0SXfo" target="_blank">https://www.youtube.com/watch?v=qjWkNZ0SXfo</a>
-
-
 Tutorial author: Tsoding
 
 Authors GitHub: https://github.com/tsoding
-
-<a href="https://github.com/tsoding" target="_blank">https://github.com/tsoding</a>
 
 To load the app, in SLY or SLIME run: (ql:quickload :trivial-3d-engine)
 When the app compiles, it should open up a Sketch window with a spinning cube. If you close the Sketch window, you can just start another Sketch window with: (trivial-3d-engine:start-app)
