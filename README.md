@@ -27,5 +27,7 @@ Tutorial author: Tsoding
 
 Authors GitHub: https://github.com/tsoding
 
+**Requirements:** SBCL, Quicklisp and SLY or Slime.
+
 To load the app, in SLY or SLIME run: (ql:quickload :trivial-3d-engine)
 When the app compiles, it should open up a Sketch window with a spinning cube. If you close the Sketch window, you can just start another Sketch window with: (trivial-3d-engine:start-app)
