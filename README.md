@@ -17,9 +17,9 @@ A simple test to transpose a wonderful little tutorial by Tsoding that demonstra
 
 Tsoding performs the line tutorial in JavaScript, and I wanted to see what the code would look like in Sketch and learn a little bit about how to render 3d data.
 
-This is my first attempt. 
-
-All comments are welcome. All criticisms and suggestions are even better. 
+* This is my first attempt. 
+* All comments are welcome. 
+* All criticisms and suggestions are even better. 
 
 Original tutorial link: https://www.youtube.com/watch?v=qjWkNZ0SXfo
 Tutorial author: Tsoding
