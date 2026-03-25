@@ -22,7 +22,9 @@ Tsoding performs the line tutorial in JavaScript, and I wanted to see what the c
 * All criticisms and suggestions are even better. 
 
 Original tutorial link: https://www.youtube.com/watch?v=qjWkNZ0SXfo
+
 Tutorial author: Tsoding
+
 Authors GitHub: https://github.com/tsoding
 
 To load the app, in SLY or SLIME run: (ql:quickload :trivial-3d-engine)
