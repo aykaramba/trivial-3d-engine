@@ -9,8 +9,9 @@
 ;;    |_||_|  |_| \_/ |_|\__,_|_| |____/|____/  |_____|_| |_|\__, |_|_| |_|\___|
 ;;                                                            |___/             
 ```
-
-<img width="402" height="411" style="float: right;" alt="Trival 3D Engine" src="https://github.com/user-attachments/assets/8e1092b7-3a8c-4252-b6d0-67c8285a864e" />
+<p align="center">
+<img width="402" height="411" alt="Trival 3D Engine" src="https://github.com/user-attachments/assets/8e1092b7-3a8c-4252-b6d0-67c8285a864e" />
+</p>
 
 A simple test to transpose a wonderful little tutorial by Tsoding that demonstrates how to store data as vectors and use a few simple formulas to translate the data and render points and lines of a cube in 3d dimensions.
 
