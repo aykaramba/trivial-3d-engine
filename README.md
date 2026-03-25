@@ -10,6 +10,9 @@
 ;;                                                            |___/             
 ```
 
+<img width="402" height="411" alt="trival" src="https://github.com/user-attachments/assets/8e1092b7-3a8c-4252-b6d0-67c8285a864e" />
+
+
 A simple test to transpose a wonderful little tutorial by Tsoding that demonstrates how
 to store data as vectors and use some simple formulas to translate the data and
 render the points and lines of a cubed in 3d dimentions.
