@@ -192,21 +192,19 @@ close the Sketch window, you can just start another Sketch window with: (trivial
                                       ;; point P1
                                       (project-p1
                                        (translate
-                                        (rotate 
-                                         :x (getf a :x) 
-                                         :y (getf a :y) 
-                                         :z (getf a :z) 
-                                         :angle *angle*))) 
+                                        (rotate :x (getf a :x) 
+                                                :y (getf a :y) 
+                                                :z (getf a :z) 
+                                                :angle *angle*))) 
                        
                                       ;; point P2
                                       (project-p2
                                        (translate
-                                        (rotate 
-                                         :x (getf b :x) 
-                                         :y (getf b :y) 
-                                         :z (getf b :z) 
-                                         :angle *angle*
-                                         ))) 
+                                        (rotate :x (getf b :x) 
+                                                :y (getf b :y) 
+                                                :z (getf b :z) 
+                                                :angle *angle*
+                                                ))) 
 
                                       ;; draw the lines every loop
                                       (draw-line)
