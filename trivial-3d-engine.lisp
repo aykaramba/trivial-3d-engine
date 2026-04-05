@@ -214,6 +214,14 @@ close the Sketch window, you can just start another Sketch window with: (trivial
 ;; --
 (make-instance 'trivial-3d-engine)
 
+;; render without anti-aliasing
+;; --
+;; from this discussion on github: https://github.com/vydd/sketch/issues/172
+;; note: this only works as long as you don't use scale in your sketch
+(defmethod setup :after ((sketch trivial-3d-engine) &key &allow-other-keys)
+                        (gl:disable :multisample))
+
+
 ;; Use this to start after loading with quicklisp.
 ;; Example: (trivial-3d-engine:start-app)
 ;; -- 
