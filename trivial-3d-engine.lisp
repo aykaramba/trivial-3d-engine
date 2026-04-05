@@ -149,17 +149,18 @@ close the Sketch window, you can just start another Sketch window with: (trivial
   
   ;; Uncomment to see live values of variables
   ;; --
-  ;; Display values for: *dz*
-  (with-font (make-font :color (hex-to-color "ddd9d0") ) (text (format nil "dz: ~a" *dz*) 10 10))
-  ;; Display values for (draw-line): P1 and P2 
-  (with-font (make-font :color (hex-to-color "ddd9d0") ) (text (format nil "p1x: ~a" *p1x*) 10 40)   )
-  (with-font (make-font :color (hex-to-color "ddd9d0") ) (text (format nil "p1y: ~a" *p1y*) 10 55))
-  (with-font (make-font :color (hex-to-color "ddd9d0") ) (text (format nil "p2x: ~a" *p2x*) 10 70) )
-  (with-font (make-font :color (hex-to-color "ddd9d0") ) (text (format nil "p2y: ~a" *p2y*) 10 85))
-  ;; Display values of: *x* and *y*
-  (with-font (make-font :color (hex-to-color "ddd9d0") ) (text (format nil "x: ~a" *x*) 10 115))
-  (with-font (make-font :color (hex-to-color "ddd9d0") ) (text (format nil "y: ~a" *y*) 10 130))
-
+  (with-font (make-font :color (hex-to-color "ddd9d0") ) 
+    ;; Display values for: *dz*
+    (text (format nil "dz: ~a" *dz*) 10 10)
+    ;; Display values for (draw-line): P1 and P2 
+    (text (format nil "p1x: ~a" *p1x*) 10 40)
+    (text (format nil "p1y: ~a" *p1y*) 10 55)
+    (text (format nil "p2x: ~a" *p2x*) 10 70)
+    (text (format nil "p2y: ~a" *p2y*) 10 85)
+    ;; Display values of: *x* and *y*
+    (text (format nil "x: ~a" *x*) 10 115)
+    (text (format nil "y: ~a" *y*) 10 130))
+  
   ;; Update the angle ever frame
   ;; --
   (setf *angle* (+ *angle* (* (* 2 pi) *dt* )))
