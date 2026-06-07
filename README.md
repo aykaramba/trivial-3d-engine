@@ -17,7 +17,7 @@ A simple test to transpose a wonderful little tutorial by Tsoding that demonstra
 
 Original tutorial link: https://www.youtube.com/watch?v=qjWkNZ0SXfo
 
-Tutorial author: Tsoding
+Tutorial author: Ts0ding
 
 Authors GitHub: https://github.com/tsoding
 
